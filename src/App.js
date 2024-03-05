@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import {Child2} from './components/child2';
+import {Fact} from './components/fact'
 
 function App() {
   return (
-    <div className="App">
-      <Child2/>
+    <div className="App" style={{backgroundColor : 90  }}>
+      <Fact/>
     </div>
   );
 }
