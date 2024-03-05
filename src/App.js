@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import ClassHello from './components/classHello';
+import {Child2} from './components/child2';
 
 function App() {
   return (
     <div className="App">
-      <ClassHello/>
+      <Child2/>
     </div>
   );
 }
