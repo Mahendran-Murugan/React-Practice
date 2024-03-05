@@ -1,15 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import {Props} from './components/props'
+import {Props} from './components/deStructureProps'
 
 function App() {
   return (
     <div className="App" style={{backgroundColor : 90  }}>
-      <Props name = "Adam">
-        <h2>This is child</h2>
-      </Props>
-      <Props name = "Guna"/>
-      <Props name = "Senthil"/>
+      <Props name = "Adam" age = "20"/>
+      <Props name = "Guna" age = "20"/>
+      <Props name = "Senthil" age = "20"/>
     </div>
   );
 }
