@@ -1,10 +1,10 @@
 import './App.css';
-import { FormObjectWithPrevData } from './components/formObjectPrevState';
+import { FormObjectSingleOnChange } from './components/formObjectSingleOnChange';
 
 function App() {
   return (
     <div className="App">
-      <FormObjectWithPrevData/>
+      <FormObjectSingleOnChange/>
     </div>
   );
 }
