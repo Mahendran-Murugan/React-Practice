@@ -1,10 +1,10 @@
 import './App.css';
-import { FormObjectSingleOnChange } from './components/formObjectSingleOnChange';
+import { Task2 } from './components/task2';
 
 function App() {
   return (
     <div className="App">
-      <FormObjectSingleOnChange/>
+      <Task2/>
     </div>
   );
 }
