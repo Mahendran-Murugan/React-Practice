@@ -1,10 +1,9 @@
 import './App.css';
-import { Calculator } from './components/calculator';
-
+import { ListRendering } from './components/ListRendering';
 function App() {
   return (
     <div className="App">
-      <Calculator/>
+      <ListRendering/>
     </div>
   );
 }
