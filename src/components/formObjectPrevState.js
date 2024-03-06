@@ -1,18 +1,18 @@
 import React from 'react'
 import { useState } from 'react'
 
-export const FormObject = () => {
+export const FormObjectWithPrevData = () => {
     const[formData, setFormData] = useState({
         fname:"",
         lname:""
     })
 
     function handleChangeFname(event){
-        setFormData({fname:event.target.value})
+        setFormData({...formData,fname:event.target.value})
     }
 
     function handleChangeLname(event){
-        setFormData({lname:event.target.value})
+        setFormData({...formData,lname:event.target.value})
     }
 
   return (

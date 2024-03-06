@@ -1,10 +1,10 @@
 import './App.css';
-import { FormObject } from './components/formObject';
+import { FormObjectWithPrevData } from './components/formObjectPrevState';
 
 function App() {
   return (
     <div className="App">
-      <FormObject/>
+      <FormObjectWithPrevData/>
     </div>
   );
 }
