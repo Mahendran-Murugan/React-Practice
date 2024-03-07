@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import './App.css';
-import { Timer } from './components/Timer';
+import { StopWatch } from './components/StopWatch';
 function App() {
   // const handle = ()=>{
   //   console.log("Button Clicked From Child")
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       {/* <MethodProps handle={handle}/> */}
-      <Timer/>
+      <StopWatch/>
     </div>
   );
 }
