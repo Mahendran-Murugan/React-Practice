@@ -1,9 +1,9 @@
 import './App.css';
-import { ListRendering } from './components/ListRendering';
+import { Conditional1 } from './components/Condition1';
 function App() {
   return (
     <div className="App">
-      <ListRendering/>
+      <Conditional1/>
     </div>
   );
 }
