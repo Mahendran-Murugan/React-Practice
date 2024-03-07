@@ -1,9 +1,9 @@
 import './App.css';
-import { Conditional1 } from './components/Condition1';
+import { Conditional2 } from './components/Condition2';
 function App() {
   return (
     <div className="App">
-      <Conditional1/>
+      <Conditional2/>
     </div>
   );
 }
