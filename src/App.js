@@ -1,9 +1,12 @@
 import './App.css';
-import { Conditional4 } from './components/Condition4';
+import { MethodProps } from './components/MethodProps';
 function App() {
+  const handle = ()=>{
+    console.log("Button Clicked From Child")
+  }
   return (
     <div className="App">
-      <Conditional4/>
+      <MethodProps handle={handle}/>
     </div>
   );
 }
