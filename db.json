@@ -2,23 +2,8 @@
   "students": [
     {
       "id": "1",
-      "name": "modified",
-      "age": 0
-    },
-    {
-      "id": "2",
-      "name": "modified",
-      "age": 0
-    },
-    {
-      "id": "3",
-      "name": "modified",
-      "age": 0
-    },
-    {
-      "id": "1",
-      "name": "Mahi",
-      "age": "12"
+      "name": "Mahendran",
+      "age": "19"
     }
   ]
 }
