@@ -29,7 +29,11 @@ export const CRUD = () => {
 
 
     const updateData = (id) =>{
-        axios.delete(`http://localhost:3001/students/${id}`)
+        axios.put(`http://localhost:3001/students/${id}`,{
+            "id":id,
+            "name":'modified',
+            "age":0
+        })
         .then((res)=>{
             console.log(res)
         })
