@@ -10,6 +10,7 @@ export const NavBarUseLink = () => {
         <NavLink to = '/contact'>Contact</NavLink>
         <NavLink to = '/service'>Service</NavLink>
         <NavLink to = '/product'>Product</NavLink>
+        <NavLink to = '/user'>User</NavLink>
     </nav>
   )
 }
