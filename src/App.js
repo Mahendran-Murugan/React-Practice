@@ -14,6 +14,7 @@ import { SpecificUser } from './components/SpecificUser';
 import { NoMatchRoute } from './components/NoMatchRoute';
 import { MostViewed } from './components/MostViewed';
 import { Trending } from './components/Trending';
+import { Protect } from './components/Protect';
 function App() {
   // const handle = ()=>{
   //   console.log("Button Clicked From Child")
@@ -28,7 +29,7 @@ function App() {
           <Route path = "/" element= {<Home/>}/>
           <Route path = "/about" element= {<About/>}/>
           <Route path = "/contact" element= {<Contact/>}/>
-          <Route path = "/service" element= {<Service/>}/>
+          <Route path = "/service" element= {<Protect><Service/></Protect>}/>
           <Route path = "/product" element= {<Product/>}>
             <Route index element= {<MostViewed/>}/>
             <Route path = "most" element= {<MostViewed/>}/>
