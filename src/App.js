@@ -25,6 +25,7 @@ function App() {
         <Route path = "/contact" element= {<Contact/>}/>
         <Route path = "/service" element= {<Service/>}/>
         <Route path = "/product" element= {<Product/>}>
+        <Route index element= {<MostViewed/>}/>
         <Route path = "most" element= {<MostViewed/>}/>
         <Route path = "trending" element= {<Trending/>}/>
         </Route>

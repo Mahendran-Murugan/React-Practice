@@ -6,7 +6,6 @@ export const NestedRoutes = () => {
     <div>
         <Link to = "most">Most Viewed</Link>
         <Link to = 'trending'>Trending</Link>
-        <Outlet/>
     </div>
   )
 }
