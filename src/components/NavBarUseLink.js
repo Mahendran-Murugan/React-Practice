@@ -9,6 +9,7 @@ export const NavBarUseLink = () => {
         <NavLink to = '/about'>About</NavLink>
         <NavLink to = '/contact'>Contact</NavLink>
         <NavLink to = '/service'>Service</NavLink>
+        <NavLink to = '/product'>Product</NavLink>
     </nav>
   )
 }
