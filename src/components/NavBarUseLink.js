@@ -11,6 +11,7 @@ export const NavBarUseLink = () => {
         <NavLink to = '/service'>Service</NavLink>
         <NavLink to = '/product'>Product</NavLink>
         <NavLink to = '/user'>User</NavLink>
+        <NavLink to = '/login'>Login</NavLink>
     </nav>
   )
 }
