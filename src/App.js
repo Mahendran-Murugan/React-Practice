@@ -1,5 +1,9 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import { CRUD } from './components/CRUD';
+import { Home } from './components/Home';
+import { Service } from './components/Service';
+import { Contact } from './components/Contact';
+import { About } from './components/About';
 function App() {
   // const handle = ()=>{
   //   console.log("Button Clicked From Child")
@@ -7,7 +11,12 @@ function App() {
   return (
     <div className="App">
       {/* <MethodProps handle={handle}/> */}
-      <CRUD/>
+      <Routes>
+        <Route path = "/" element= {<Home/>}/>
+        <Route path = "/about" element= {<About/>}/>
+        <Route path = "/contact" element= {<Contact/>}/>
+        <Route path = "/service" element= {<Service/>}/>
+      </Routes>
     </div>
   );
 }
