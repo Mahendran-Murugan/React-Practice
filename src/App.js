@@ -15,6 +15,7 @@ import { NoMatchRoute } from './components/NoMatchRoute';
 import { MostViewed } from './components/MostViewed';
 import { Trending } from './components/Trending';
 import { Protect } from './components/Protect';
+import { Register } from './components/Register';
 function App() {
   // const handle = ()=>{
   //   console.log("Button Clicked From Child")
@@ -40,6 +41,7 @@ function App() {
           </Route>
           <Route path = "*" element= {<NoMatchRoute/>}/>
           <Route path = "/login" element= {<Login/>}/>
+          <Route path = "/register" element= {<Register/>}/>
         </Routes>
       </Auth>
     </div>

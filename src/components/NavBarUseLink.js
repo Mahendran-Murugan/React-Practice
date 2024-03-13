@@ -12,6 +12,7 @@ export const NavBarUseLink = () => {
         <NavLink to = '/product'>Product</NavLink>
         <NavLink to = '/user'>User</NavLink>
         <NavLink to = '/login'>Login</NavLink>
+        <NavLink to = '/register'>Register</NavLink>
     </nav>
   )
 }
